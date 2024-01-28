@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Region" />
+            <Field name="Total" />
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Aragon</c>
+              <c>75</c>
+              <c>2022-02-03</c>
+            </r>
+            <r>
+              <c>Aragon</c>
+              <c>27</c>
+              <c>2022-02-05</c>
+            </r>
+            <r>
+              <c>Canary Islands</c>
+              <c>88</c>
+              <c>2022-06-08</c>
+            </r>
+            <r>
+              <c>Valenica</c>
+              <c>34</c>
+              <c>2022-03-31</c>
+            </r>
+            <r>
+              <c>Balearic Islsnds</c>
+              <c>45</c>
+              <c>2022-05-19</c>
+            </r>
+            <r>
+              <c>Madrid</c>
+              <c>33</c>
+              <c>2022-03-07</c>
+            </r>
+            <r>
+              <c>Valenica</c>
+              <c>90</c>
+              <c>2022-04-13</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Date] &gt;= "2022-01-01" AND [Date] &lt;= "2022-03-31" AND [Total] &gt; 45</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Date] &gt;= "2022-01-01" AND [Date] &lt;= "2022-03-31" AND [Total] &gt; 45</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Question 1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9d52e78b-2475-4bac-8b34-545d5b7b72d1" />
+      <Telemetry>
+        <PreviousWorkflowId value="611d77d5-07cd-4786-8d80-536b995ae434" />
+        <OriginWorkflowId value="611d77d5-07cd-4786-8d80-536b995ae434" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
