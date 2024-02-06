@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Question 6.xlsx
+Query=`Married At First Sight Data...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Couple" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="Season" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="Name" size="255" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="V_String" />
+            <Field name="Age" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="Gender" size="255" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="V_String" />
+            <Field name="Status" size="255" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="V_String" />
+            <Field name="DrPepperSchwartz" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="DrLoganLevkoff" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="DrJosephCilona" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="ChaplainGregEpstein" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="PastorCalvinRoberson" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="RachelDeAlto" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="DrJessicaGriffin" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+            <Field name="DrVivianaColes" source="File: D:\My Portfolio\Test given by me\Alteryx\Alteryx Designer Core Micro-Credential Data Preparation\Question 6.xlsx|||`Married At First Sight Dataset$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="138" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Status] = "Married" AND [Gender] = "F" AND [PastorCalvinRoberson] = 1</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Status] = "Married" AND [Gender] = "F" AND [PastorCalvinRoberson] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="258" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Age" action="StdDev" rename="Std_Dev_Age" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Question 6</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7a9d02ad-203a-4e8c-8bf6-08d7466cddbd" />
+      <Telemetry>
+        <PreviousWorkflowId value="3ef445c1-ab13-40e1-865c-8d23309986a8" />
+        <OriginWorkflowId value="3ef445c1-ab13-40e1-865c-8d23309986a8" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
