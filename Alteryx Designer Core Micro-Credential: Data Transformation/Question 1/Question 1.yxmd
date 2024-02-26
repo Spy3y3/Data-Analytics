@@ -1,0 +1,4102 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="126" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Category" action="GroupBy" rename="Category" />
+            <SummarizeField field="Color" action="GroupBy" rename="Color" />
+            <SummarizeField field="Color" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="18" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="500" />
+          <Fields>
+            <Field name="Category" />
+            <Field name="Color" />
+            <Field name="State" />
+            <Field name="City" />
+            <Field name="Status" />
+            <Field name="Payment" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c>NH</c>
+              <c>Bedford</c>
+              <c>Lease</c>
+              <c>363</c>
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c>CT</c>
+              <c>Hartford</c>
+              <c>Lease</c>
+              <c>565</c>
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c>NH</c>
+              <c>Albany</c>
+              <c>Own</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c>CT</c>
+              <c>Bristol</c>
+              <c>Lease</c>
+              <c>567</c>
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c>CT</c>
+              <c>Fairfield</c>
+              <c>Own</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c>CT</c>
+              <c>Andover</c>
+              <c>Own</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c>NH</c>
+              <c>Bedford</c>
+              <c>Lease</c>
+              <c>568</c>
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c>NH</c>
+              <c>Rosbury</c>
+              <c>Own</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Van</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Gray</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Truck</c>
+              <c>White</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>Car</c>
+              <c>Black</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Question 1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fad1b36c-7a5f-4da8-b396-0579c4227b3e" />
+      <Telemetry>
+        <PreviousWorkflowId value="392b9dd4-7032-42c2-ab6f-30610882f6c0" />
+        <OriginWorkflowId value="392b9dd4-7032-42c2-ab6f-30610882f6c0" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
